@@ -6,9 +6,10 @@ def bubble_sort(A):
 
     while swap:
         swap = False
+        
         for i in range(len(A)-1):
-
             if A[i+1] < A[i]:
                 A[i], A[i+1] = A[i+1], A[i]
                 swap = True
+                
     return A
